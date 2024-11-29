@@ -1,0 +1,45 @@
+{
+  "dependencies": {
+    "express": "^4.21.1",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7",
+    "socket.io": "^4.8.1"
+  },
+  "scripts": {
+    "server:dev": "nodemon server.js",
+    "server:prod": "node server.js",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browser": {
+    "process": "process/browser"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "nodemon": "^3.1.0",
+    "react-app-rewired": "^2.2.1"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "server.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
